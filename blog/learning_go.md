@@ -1,0 +1,1 @@
+## I am going to make a blog about my progress learning Go
