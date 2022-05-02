@@ -6,7 +6,7 @@ module.exports = {
     colors: {
       black: colors.black,
       white: colors.white,
-      primary: colors.indigo,
+      primary: colors.teal,
       secondary: colors.cyan,
       trasparent: colors.transparent,
       dark: {

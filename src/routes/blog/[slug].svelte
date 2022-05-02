@@ -14,7 +14,13 @@ import type { SvelteComponent } from "svelte";
    import 'prism-material-themes/themes/material-palenight.css'
 </script>
 
-<article class="prose prose-invert mx-auto pt-10 container ">  
+<article class="prose prose-invert py-8 prose-h1:text-[3.25rem]">  
   <svelte:component this={post} />
 </article>
 
+<style global>
+  pre[class*="language-"] {
+    font-size: 14px;
+    margin: 2rem -4rem 2rem -4rem;
+  }
+</style>
