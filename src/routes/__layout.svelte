@@ -1,10 +1,10 @@
 <script>
-import Header from "$components/header.svelte";
+  import Header from '$components/header.svelte'
 
-  import "../app.css"
+  import '../app.css'
 </script>
 
-<div class="container max-w-[65ch] mx-auto">
-  <Header/>
+<div class="container mx-auto max-w-[65ch]">
+  <Header />
   <slot />
 </div>

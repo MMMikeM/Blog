@@ -2,12 +2,13 @@ export const get = async () => {
   const allPostFiles = import.meta.glob('$blog/*.md')
   const iterablePostFiles = Object.entries(allPostFiles)
 
-  const allPosts = iterablePostFiles.map(([path]) => {
+  const allPosts = iterablePostFiles.map(async ([path, resolver]) => {
     const href = path.replace('../../../', '').replace('.md', '')
-    const title = href.split('/').pop()?.replace(/_/g, ' ')
-
-    return { href, title }
+    const { metadata } = await resolver()
+    return { href, metadata }
   })
 
-  return { body: allPosts }
+  const posts = await Promise.all(allPosts)
+
+  return { body: posts }
 }

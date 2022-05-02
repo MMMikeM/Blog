@@ -1,13 +1,14 @@
 const colors = require('tailwindcss/colors')
 
 module.exports = {
-  content: ['./src/**/*.{html,svelte,svx}'],
+  content: ['./src/**/*.svelte', './src/app.html'],
   theme: {
     colors: {
       black: colors.black,
       white: colors.white,
       primary: colors.teal,
       secondary: colors.cyan,
+      tertiary: colors.indigo,
       trasparent: colors.transparent,
       dark: {
         50: 'hsl(0,0%,29%)',

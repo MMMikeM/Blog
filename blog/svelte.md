@@ -1,3 +1,8 @@
+---
+title: One might say, Svelte
+date: 2021-05-02
+excerpt: Stuff I (usually) love about using Svelte 
+---
 # Here's some Svelte stuff I have learned
 
 Typescript with Svelte is nice, but not super well documented. Here I will include some snippets that have been valuable to me

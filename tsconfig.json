@@ -16,7 +16,8 @@
     "baseUrl": ".",
     "paths": {
       "$svelte-kit/*": ["src/*"],
-      "$blog/*": ["blog/*"]
+      "$blog/*": ["blog/*"],
+      "$components/*": ["src/components/*"]
     }
   },
   "include": ["./static/**/*.*", "./src/**/*.*"]

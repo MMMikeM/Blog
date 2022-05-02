@@ -1,3 +1,8 @@
+---
+title: First Post!
+date: 2022-05-02
+excerpt: Details about this blog and my future plans!
+---
 # This is a topic
 
 ## Look it's an h2
