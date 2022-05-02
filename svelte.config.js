@@ -5,6 +5,7 @@ import { mdsvex } from 'mdsvex'
 import { resolve } from 'path'
 import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import rehypeSlug from 'rehype-slug'
+import remarkMdx from 'remark-mdx'
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -12,8 +13,10 @@ const config = {
   preprocess: [
     preprocess(),
     mdsvex({
+      layout: false,
       extension: '.md',
-      rehypePlugins: [rehypeSlug, rehypeAutolinkHeadings]
+      rehypePlugins: [rehypeSlug, rehypeAutolinkHeadings],
+      remarkPlugins: [remarkMdx]
     })
   ],
   kit: {

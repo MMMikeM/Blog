@@ -11,9 +11,10 @@
 <script lang="ts">
 import type { SvelteComponent } from "svelte";
    export let post: SvelteComponent
+   import 'prism-material-themes/themes/material-palenight.css'
 </script>
 
-<article class="prose prose-invert mx-auto pt-10">  
+<article class="prose prose-invert mx-auto pt-10 container ">  
   <svelte:component this={post} />
 </article>
 
