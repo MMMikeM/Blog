@@ -23,6 +23,7 @@
 <script lang="ts">
   export let data: iPostRes[]
   import Link from '$components/link.svelte';
+  import Underline from '$components/underline.svelte';
   import dayjs from 'dayjs'
 </script>
 
@@ -39,17 +40,13 @@
           <h3 class="mb-2 text-2xl font-bold capitalize">
             {metadata.title}
           </h3>
-          <span class="flex items-end justify-between">
+          <span class="flex md:items-end justify-between flex-col-reverse gap-2 md:flex-row">
             <h4 class="text-md font-light">{metadata.excerpt}</h4>
             <h5 class="text-sm text-light-900 opacity-75">
               {dayjs(metadata.date).format('DD MMM, YYYY')}
             </h5>
           </span>
-          <div class="relative my-1 h-px bg-dark-50">
-            <div
-              class="absolute h-px w-full bg-gradient-to-r from-primary-700 via-light-900 to-tertiary-900 opacity-0 transition-opacity duration-300 group-hover:opacity-90"
-            ></div>
-          </div>
+          <Underline/>
       </div>
     </a>
   {/each}
