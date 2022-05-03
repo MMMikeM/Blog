@@ -14,7 +14,7 @@
   import 'prism-material-themes/themes/material-palenight.css'
 </script>
 
-<article class="prose prose-invert prose-h1:text-[3.25rem]">
+<article class="prose prose-sm xl:prose-xl prose-invert md:prose-h1:text-[3.25rem]">
   <svelte:component this="{post}" />
 </article>
 

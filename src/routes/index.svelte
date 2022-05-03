@@ -3,7 +3,6 @@
 
   interface iPostRes {
     href: string
-
     metadata: {
       title: string
       date: string
@@ -29,13 +28,12 @@
 
 <div>
   <h3 class="mb-4 text-lg">Hi and welcome to my blog</h3>
-
   <h4 class="mb-6">A bit <Link href="/about_me">about me</Link></h4>
 
   {#each data as { href, metadata }}
     <a href="{href}">
       <div
-        class="group my-4 -mx-4 rounded py-4 px-4 transition-transform hover:-translate-y-px hover:shadow-2xl hover:shadow-dark-800"
+        class="group my-4 -mx-4 rounded py-4 px-4 transition-transform hover:-translate-y-px hover:shadow-2xl hover:shadow-dark-800 hover:text-light-50"
       >
           <h3 class="mb-2 text-2xl font-bold capitalize">
             {metadata.title}

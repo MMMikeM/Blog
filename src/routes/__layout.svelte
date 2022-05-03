@@ -8,10 +8,10 @@
 	<title>Mike's blog</title>
 </svelte:head>
 
-<div class="mytainer flex flex-col min-h-screen">
+<div class="flex flex-col min-h-screen">
   <Header />
-    <main class="md:pt-28 py-24">
-      <slot />
-    </main>
+  <main class="md:pt-28 !pb-32 pt-24 container mx-auto max-w-[65ch] px-4 md:px-0">
+    <slot />
+  </main>
   <Footer/>
 </div>
