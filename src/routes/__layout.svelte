@@ -26,7 +26,7 @@
   {#key key}
     <main in:fade={{delay: 350, duration: 200}}
           out:fade={{ duration: 200}} 
-          class="pt-28 pb-24">
+          class="md:pt-28 py-24">
       <slot />
     </main>
   {/key}
