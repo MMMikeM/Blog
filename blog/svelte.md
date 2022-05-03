@@ -1,6 +1,6 @@
 ---
 title: One might say, Svelte
-date: 2021-05-02
+date: 2022-05-02
 excerpt: Stuff I (usually) love about using Svelte 
 ---
 # Here's some Svelte stuff I have learned

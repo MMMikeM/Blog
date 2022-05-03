@@ -4,7 +4,10 @@
   import '../app.css'
 </script>
 
-<div class="container mx-auto max-w-[65ch]">
+<div class="container mx-auto max-w-[65ch] flex flex-col">
   <Header />
-  <slot />
+  <main>
+    <slot />
+  </main>
+  <footer class="py-12">This is a footer</footer>
 </div>

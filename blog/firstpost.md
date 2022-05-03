@@ -1,6 +1,6 @@
 ---
 title: First Post!
-date: 2022-05-02
+date: 2022-05-01
 excerpt: Details about this blog and my future plans!
 ---
 # This is a topic

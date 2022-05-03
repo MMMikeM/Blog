@@ -8,7 +8,15 @@ export const get = async () => {
     return { href, metadata }
   })
 
-  const posts = await Promise.all(allPosts)
+  const unsortedPosts = await await Promise.all(allPosts)
+
+  console.log('unsortedPosts:', unsortedPosts)
+
+  const posts = unsortedPosts.sort((a, b) => {
+    if (a.metadata.date < b.metadata.date) return 1
+    if (a.metadata.date > b.metadata.date) return -1
+    return 0
+  })
 
   return { body: posts }
 }
