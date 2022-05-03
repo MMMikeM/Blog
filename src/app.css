@@ -7,7 +7,7 @@
 }
 
 .hf {
-  @apply fixed inset-x-0 z-10 mt-auto bg-dark-500;
+  @apply bg-dark-500;
 }
 
 pre[class*='language-'] {
