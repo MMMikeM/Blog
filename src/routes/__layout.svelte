@@ -5,6 +5,10 @@ import Footer from '$components/footer.svelte'
   import '../app.css'
 </script>
 
+<svelte:head>
+	<title>Mike's blog</title>
+</svelte:head>
+
 <div class="container mx-auto max-w-[65ch] flex flex-col min-h-screen">
   <Header />
   <main>
