@@ -30,12 +30,12 @@
 <div>
   <h3 class="mb-4 text-lg">Hi and welcome to my blog</h3>
 
-  <h4>A bit <Link href="/about_me">about me</Link></h4>
+  <h4 class="mb-6">A bit <Link href="/about_me">about me</Link></h4>
 
   {#each data as { href, metadata }}
     <a href="{href}">
       <div
-        class="group my-8 -mx-4 rounded py-2 px-4 transition-transform hover:-translate-y-px hover:shadow-xl"
+        class="group my-4 -mx-4 rounded py-4 px-4 transition-transform hover:-translate-y-px hover:shadow-2xl hover:shadow-dark-800"
       >
           <h3 class="mb-2 text-2xl font-bold capitalize">
             {metadata.title}
@@ -50,4 +50,15 @@
       </div>
     </a>
   {/each}
+
+  <!-- <div class="h-8 w-8 bg-dark-50"></div>
+  <div class="h-8 w-8 bg-dark-100"></div>
+  <div class="h-8 w-8 bg-dark-200"></div>
+  <div class="h-8 w-8 bg-dark-300"></div>
+  <div class="h-8 w-8 bg-dark-400"></div>
+  <div class="h-8 w-8 bg-dark-500"></div>
+  <div class="h-8 w-8 bg-dark-600"></div>
+  <div class="h-8 w-8 bg-dark-700"></div>
+  <div class="h-8 w-8 bg-dark-800"></div>
+  <div class="h-8 w-8 bg-dark-900"></div> -->
 </div>
