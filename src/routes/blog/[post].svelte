@@ -18,9 +18,3 @@
   <svelte:component this="{post}" />
 </article>
 
-<style global>
-  pre[class*='language-'] {
-    font-size: 14px;
-    margin: 2rem -4rem 2rem -4rem;
-  }
-</style>

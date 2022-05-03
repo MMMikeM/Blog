@@ -3,9 +3,13 @@
 @tailwind utilities;
 
 .mytainer {
-  @apply container mx-auto max-w-[65ch];
+  @apply container mx-auto max-w-[65ch] px-4 md:px-0;
 }
 
 .hf {
   @apply fixed inset-x-0 mt-auto bg-dark-500;
+}
+
+pre[class*='language-'] {
+  @apply rounded-xl p-4 text-sm md:-mx-8 md:mt-8 md:mb-8 md:p-8 md:px-8;
 }
