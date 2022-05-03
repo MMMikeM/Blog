@@ -1,7 +1,7 @@
 ---
-title: One might say, Svelte
+title: Optimising images on the web
 date: 2022-05-03
-excerpt: Stuff I (usually) love about using Svelte 
+excerpt: It is easier than it look 
 ---
 # Optimised image elements
 
