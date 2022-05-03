@@ -11,7 +11,7 @@
 }
 
 pre[class*='language-'] {
-  @apply rounded-xl p-4 text-xs md:-mx-8 md:mt-8 md:mb-8 md:p-8 md:px-8 md:text-sm;
+  @apply rounded-xl p-4 !text-xs md:-mx-8 md:mt-8 md:mb-8 md:p-8 md:px-8 md:!text-sm;
 }
 
 html {
