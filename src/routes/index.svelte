@@ -32,25 +32,25 @@
   <h4>A bit <Link href="/about_me">about me</Link></h4>
 
   {#each data as { href, metadata }}
-    <div
-      class="group my-8 -mx-4 rounded py-2 px-4 transition-transform hover:-translate-y-px hover:shadow-xl"
-    >
-      <a href="{href}">
-        <h4 class="mb-2 text-2xl font-bold capitalize">
-          {metadata.title}
-        </h4>
-        <span class="flex items-end justify-between">
-          <h5 class="text-md font-light">{metadata.excerpt}</h5>
-          <h6 class="text-sm text-light-900 opacity-75">
-            {dayjs(metadata.date).format('DD MMM, YYYY')}
-          </h6>
-        </span>
-        <div class="relative my-1 h-px bg-dark-50">
-          <div
-            class="absolute h-px w-full bg-gradient-to-r from-primary-700 via-light-900 to-tertiary-900 opacity-0 transition-opacity duration-300 group-hover:opacity-90"
-          ></div>
-        </div>
-      </a>
-    </div>
+    <a href="{href}">
+      <div
+        class="group my-8 -mx-4 rounded py-2 px-4 transition-transform hover:-translate-y-px hover:shadow-xl"
+      >
+          <h3 class="mb-2 text-2xl font-bold capitalize">
+            {metadata.title}
+          </h3>
+          <span class="flex items-end justify-between">
+            <h4 class="text-md font-light">{metadata.excerpt}</h4>
+            <h5 class="text-sm text-light-900 opacity-75">
+              {dayjs(metadata.date).format('DD MMM, YYYY')}
+            </h5>
+          </span>
+          <div class="relative my-1 h-px bg-dark-50">
+            <div
+              class="absolute h-px w-full bg-gradient-to-r from-primary-700 via-light-900 to-tertiary-900 opacity-0 transition-opacity duration-300 group-hover:opacity-90"
+            ></div>
+          </div>
+      </div>
+    </a>
   {/each}
 </div>

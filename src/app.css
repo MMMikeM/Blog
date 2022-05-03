@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.mytainer {
+  @apply container mx-auto max-w-[65ch];
+}
+
+.hf {
+  @apply fixed inset-x-0 mt-auto bg-dark-500;
+}

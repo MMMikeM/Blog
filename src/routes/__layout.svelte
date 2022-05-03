@@ -1,18 +1,40 @@
-<script>
-  import Header from '$components/header.svelte'
-import Footer from '$components/footer.svelte'
+<script context="module" lang="ts">
+  import type { LoadInput } from '@sveltejs/kit';
 
+  export const load = async ({ url }: LoadInput) => {
+    return({
+      props: {
+          key: url.pathname,
+      },
+  });}
+</script>
+
+<script lang="ts">
+  import Header from '$components/header.svelte'
+  import Footer from '$components/footer.svelte'
+  import { fade } from 'svelte/transition';
   import '../app.css'
+  export let key: string
 </script>
 
 <svelte:head>
 	<title>Mike's blog</title>
 </svelte:head>
 
-<div class="container mx-auto max-w-[65ch] flex flex-col min-h-screen">
+<div class="mytainer flex flex-col min-h-screen">
   <Header />
-  <main>
-    <slot />
-  </main>
+  {#key key}
+    <main in:fade={{delay: 350, duration: 200}}
+          out:fade={{ duration: 200}} 
+          class="pt-28 pb-24">
+      <slot />
+    </main>
+  {/key}
   <Footer/>
 </div>
+
+<style global>
+  html {
+    scrollbar-gutter: stable;
+  }
+</style>
