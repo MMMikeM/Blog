@@ -1,6 +1,6 @@
 ---
 title: One might say, Svelte
-date: 2022-05-02
+date: 2022-05-03
 excerpt: Stuff I (usually) love about using Svelte 
 ---
 # Optimised image elements
