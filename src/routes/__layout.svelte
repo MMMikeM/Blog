@@ -32,9 +32,3 @@
   {/key}
   <Footer/>
 </div>
-
-<style global>
-  html {
-    scrollbar-gutter: stable;
-  }
-</style>
