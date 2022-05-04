@@ -6,9 +6,9 @@ module.exports = {
     colors: {
       black: colors.black,
       white: colors.white,
-      primary: colors.teal,
+      primary: colors.blue,
       secondary: colors.cyan,
-      tertiary: colors.indigo,
+      tertiary: colors.violet,
       trasparent: colors.transparent,
       dark: {
         50: 'hsl(210,   5.0%,   39.0%)',

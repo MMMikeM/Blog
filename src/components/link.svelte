@@ -6,11 +6,11 @@
 </script>
 
 {#if newTab}
-  <a href={href} class={newClass} target="_blank">
+  <a href="{href}" class="{newClass}" target="_blank">
     <slot />
   </a>
 {:else}
-  <a href={href} class={newClass}>
+  <a href="{href}" class="{newClass}">
     <slot />
   </a>
 {/if}

@@ -5,13 +5,13 @@
 </script>
 
 <svelte:head>
-	<title>Mike's blog</title>
+  <title>Gav's blog</title>
 </svelte:head>
 
-<div class="flex flex-col min-h-screen">
+<div class="flex min-h-screen flex-col">
   <Header />
-  <main class="md:pt-2 pb-4 pt-4 container mx-auto max-w-[65ch] px-4 md:px-0">
+  <main class="container mx-auto max-w-[65ch] px-4 pb-4 pt-4 md:px-0 md:pt-2">
     <slot />
   </main>
-  <Footer/>
+  <Footer />
 </div>
