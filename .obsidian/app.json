@@ -1,0 +1,9 @@
+{
+  "legacyEditor": false,
+  "livePreview": true,
+  "userIgnoreFilters": [
+    "src/",
+    "static/",
+    "README"
+  ]
+}
