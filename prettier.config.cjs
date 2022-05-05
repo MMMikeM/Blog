@@ -6,6 +6,7 @@ module.exports = {
   singleQuote: true,
   trailingComma: 'none',
   printWidth: 100,
+  endOfLine:'crlf',
   svelteSortOrder: 'scripts-markup-styles',
   svelteStrictMode: true,
   svelteBracketNewLine: false,
