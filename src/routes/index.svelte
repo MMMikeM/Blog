@@ -28,8 +28,7 @@
 
 <div>
   <h3 class="mb-4">
-    Hi and welcome to my blog. Expect poor writing about javascript, typescript, go and maybe some
-    rants about the dev industry
+    Hi and welcome to my blog.
   </h3>
   <h4 class="mb-6">A bit <Link href="/about_me">about me</Link></h4>
 
