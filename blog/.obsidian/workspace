@@ -1,33 +1,29 @@
 {
   "main": {
-    "id": "8fbd37dd61d1927f",
+    "id": "81ce63ca7067fb14",
     "type": "split",
     "children": [
       {
-        "id": "db8c8f63de21f0e4",
+        "id": "d1968bf065783a43",
         "type": "leaf",
         "state": {
-          "type": "markdown",
-          "state": {
-            "file": "blog/firstpost.md",
-            "mode": "source",
-            "source": false
-          }
+          "type": "empty",
+          "state": {}
         }
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "fa6326926f9c97b3",
+    "id": "3e6ad1631714fd9d",
     "type": "split",
     "children": [
       {
-        "id": "22369728501fe7e9",
+        "id": "3665d5fcbe1d0587",
         "type": "tabs",
         "children": [
           {
-            "id": "1d0e0aef65b16846",
+            "id": "5204f22ac47df16b",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -35,7 +31,7 @@
             }
           },
           {
-            "id": "86c2085184602ba6",
+            "id": "d70dfbcdc7a6c2aa",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -56,20 +52,19 @@
     "width": 300
   },
   "right": {
-    "id": "218bedc29d33672e",
+    "id": "a6fd1c77b1ad9224",
     "type": "split",
     "children": [
       {
-        "id": "ba792ceecd1efc39",
+        "id": "f1062883d135a865",
         "type": "tabs",
         "children": [
           {
-            "id": "07b54fd8657e29f7",
+            "id": "630f9d309e7177a8",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blog/firstpost.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -79,33 +74,14 @@
                 "unlinkedCollapsed": true
               }
             }
-          },
-          {
-            "id": "960250e024b8c5fa",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
-  "active": "db8c8f63de21f0e4",
-  "lastOpenFiles": [
-    "blog/firstpost.md",
-    "blog/hello.md",
-    "Untitled.md",
-    "blog/svelte.md",
-    "blog/picture.md",
-    "blog/gav.md",
-    "blog/learning_go.md",
-    "blog/chrys.md",
-    "blog/welcome.md",
-    "README.md"
-  ]
+  "active": "d1968bf065783a43",
+  "lastOpenFiles": []
 }
