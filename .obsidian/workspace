@@ -9,7 +9,7 @@
         "state": {
           "type": "markdown",
           "state": {
-            "file": "blog/firstpost.md",
+            "file": "blog/2022-05-07.md",
             "mode": "source",
             "source": false
           }
@@ -69,7 +69,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "blog/firstpost.md",
+                "file": "blog/2022-05-07.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,15 +97,15 @@
   },
   "active": "db8c8f63de21f0e4",
   "lastOpenFiles": [
+    "blog/2022-05-07.md",
+    "![[Gauteng.md",
     "blog/firstpost.md",
+    "Gauteng and MP - PM2.5 - 2012.png",
+    "blog/Gauteng and MP - PM2.5 - 2012.png",
     "blog/hello.md",
+    "Gauteng and MP - PM2.5 - 2012 1.png",
+    "image.jpg.md",
     "Untitled.md",
-    "blog/svelte.md",
-    "blog/picture.md",
-    "blog/gav.md",
-    "blog/learning_go.md",
-    "blog/chrys.md",
-    "blog/welcome.md",
-    "README.md"
+    "blog/svelte.md"
   ]
 }
