@@ -3,6 +3,7 @@
     params: { post: string }
   }
   export const load = async ({ params }: iProps) => {
+    if (!params.post.includes('.md')) return { props: null }
     const post = await import(`../../../blog/${params.post}.md`).then(({ default: post }) => post)
     return { props: { post } }
   }
