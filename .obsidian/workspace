@@ -93,16 +93,17 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "active": "db8c8f63de21f0e4",
   "lastOpenFiles": [
     "blog/2022-05-07.md",
-    "![[Gauteng.md",
     "blog/firstpost.md",
+    "blog/hello.md",
+    "![[Gauteng.md",
     "Gauteng and MP - PM2.5 - 2012.png",
     "blog/Gauteng and MP - PM2.5 - 2012.png",
-    "blog/hello.md",
     "Gauteng and MP - PM2.5 - 2012 1.png",
     "image.jpg.md",
     "Untitled.md",
